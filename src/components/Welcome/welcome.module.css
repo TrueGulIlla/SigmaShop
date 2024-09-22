@@ -1,0 +1,60 @@
+
+.welcom {
+    position: relative;
+}
+
+.welcom__slide {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcom__slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+.welcom__container {
+    position: relative;
+    z-index: 2;
+    color: white;
+   height: 100vh;
+}
+
+.welcom__content {
+    display: inline-flex;
+    flex-direction: column;
+    background: rgba(113, 72, 246, 0.32);
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 275px;
+    gap: 35px;
+}
+
+.welcom__title {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.welcom__subtitle {
+    font-size: 25px;
+    max-width: 500px;
+}
+
+.welcom__text {
+    background: rgba(113, 72, 246, 0.32);
+    margin-top: 40px;
+    font-size: 20px;
+    max-width: 400px;
+    line-height: 140%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: justify;
+}

@@ -1,0 +1,32 @@
+.header{
+    background: rgba(153, 21, 183, 0.34);
+    padding: 34px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header__container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    font-family: 'LogoHeader', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.header__navbar{
+
+}
+.header__list{
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+.header__item{
+
+}
